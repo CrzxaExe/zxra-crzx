@@ -1,0 +1,177 @@
+body {
+  width: 100vw;
+  position: relative;
+  height: auto;
+  margin: 0;
+  overflow-x: hidden;
+  background: #191919;
+}
+@font-face {
+  font-family: Source;
+  src: url("/fonts/SourceCode.ttf") format("truetype");
+}
+@font-face {
+  font-family: Valorant;
+  src: url("/fonts/Valorant.ttf") format("truetype");
+}
+#header {
+  width: 100vw;
+  height: 37vw;
+  position: relative;
+  display: flex;
+  background: #242424;
+  color: white;
+  overflow: hidden;
+}
+.left :where(b, p) {
+  position: relative;
+  z-index: 2;
+  top: -1.5vw;
+}
+.left {
+  position: relative;
+  padding: 6vw 4vw;
+  z-index: 2;
+}
+.left b {
+  font-family: Sans-Serif;
+  color: #004f56;
+  font-size: 6vw;
+  font-weight: none;
+}
+.left a {
+  font-family: Valorant;
+  color: #a5a5a5;
+  display: inline;
+  z-index: 9;
+  width: auto;
+  font-size: 4.5vw;
+}
+.left p {
+  color: #727272;
+  margin: 0;
+  font-size: 1.8vw;
+  padding: 2vw 0 0 0;
+  font-family: Source;
+}
+.left hr {
+  z-index: 2;
+}
+.left .full {
+  width: 70vw;
+  position: absolute;
+  left: 0;
+  top: -2vw;
+  z-index: -1;
+  height: 42vw;
+  background: linear-gradient(90deg, #242424, #242424, #24242480, #24242400);
+}
+.flex-button {
+  display: flex;
+  position: relative;
+  font-size: 1.2vw;
+  padding: 2vw 0;
+}
+.flex-button a, .flex-button i {
+  background: #2ef5ff00;
+  color: #a7a7a7;
+  padding: 1vw 3vw;
+  text-decoration: none;
+  border-radius: 1vw;
+  font-size: 1.2vw;
+  font-family: Source;
+  transition: all .4s ease;
+  border: .15vw solid #a7a7a7;
+}
+.flex-button i {
+  font-size: 2.4vw;
+}
+.flex-button:hover a {
+  background: #2ef5ff;
+  color: #1b1b1b;
+}
+.flex-button a:focus {
+  background: #242424;
+}
+#header #footer {
+  position: absolute;
+  color: #999999;
+  bottom: 2vw;
+  z-index: 2;
+  font-size: 1.3vw;
+  font-family: Source;
+  right: 2vw;
+}
+#header #pcx {
+  position: absolute;
+  object-fit: cover;
+  width: 100vw;
+  top: -6vw;
+  left: 8vw;
+}
+.container {
+  text-align: center;
+  width: 96vw;
+  padding: 2vw;
+  overflow: hidden;
+  position: relative;
+  background: #151515;
+}
+.container .about {
+  font-family: Sans-Serif;
+  color: white;
+}
+.about b {
+  font-size: 4vw;
+}
+.about .display-flex {
+  display: flex;
+  margin-top: 3vw;
+}
+.display-flex img {
+  object-fit: contain;
+  width: 27vw;
+  padding-bottom: 3vw;
+  border-radius: 1vw;
+  margin-right: 2vw;
+}
+.display-flex p {
+  font-family: Monospace;
+  text-align: left;
+  font-size: 1.4vw;
+  margin: 0;
+}
+.social {
+  background: #262626;
+  color: white;
+  font-family: Monospace;
+  position: relative;
+  width: 96vw;
+  padding: 1vw 2vw;
+  left: -2vw;
+}
+.social b {
+  font-family: Sans-Serif;
+  font-size: 3vw;
+}
+.skill {
+  font-family: Monospace;
+  position: relative;
+  width: 96vw;
+  padding: 3vw 0;
+}
+.skill b {
+  font-family: Sans-Serif;
+  font-size: 3.5vw;
+  display: flex;
+  color: white;
+  align-items: left;
+}
+.skill b::after {
+  content: "";
+  flex: 1;
+  margin-left: 2vw;
+  margin-top: 2.5vw;
+  height: .3vw;
+  background-color: #989898;
+}
