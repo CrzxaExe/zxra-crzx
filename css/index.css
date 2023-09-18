@@ -8,11 +8,11 @@ body {
 }
 @font-face {
   font-family: Source;
-  src: url("/fonts/SourceCode.ttf") format("truetype");
+  src: url("./fonts/SourceCode.ttf") format("truetype");
 }
 @font-face {
   font-family: Valorant;
-  src: url("/fonts/Valorant.ttf") format("truetype");
+  src: url("./fonts/Valorant.ttf") format("truetype");
 }
 #header {
   width: 100vw;
